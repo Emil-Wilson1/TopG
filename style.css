@@ -1,0 +1,87 @@
+body{
+    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.navbar{
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+.logo,.dim2{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+    border-radius: 180px;
+}
+.links,a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    padding: 15px;
+    font-family: sans-serif;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 200px;
+} 
+.sub-content{
+    flex-basis: 400px;
+}
+h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #f9faf8;
+    font-style: bold;
+    ;
+    text-align: left;
+}
+.para{
+    font-family: sans-serif;
+    opacity: 0.6;
+    color: #f9faf8;
+   
+    text-align: left;
+
+}
+.car{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tate{
+    width: 400px;
+    height: 300px;
+    padding-left: 50px;
+   
+}
+button{
+text-align: left;
+border: none;
+background: #3882f6;
+padding: 10px;
+border-radius: 8px;
+color: #fff;
+font-family: 'Roboto', arial;
+text-decoration: none;
+font-weight: bold;
+display: flex;
+justify-content: flex-start;
+}
+.hero{
+    
+}
