@@ -73,7 +73,7 @@ button{
 text-align: left;
 border: none;
 background: #3882f6;
-padding: 10px;
+padding: 15px;
 border-radius: 8px;
 color: #fff;
 font-family: 'Roboto', arial;
@@ -81,6 +81,7 @@ text-decoration: none;
 font-weight: bold;
 display: flex;
 justify-content: flex-start;
+cursor: pointer;
 }
 h2{
     font-family: sans-serif;
@@ -91,6 +92,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 52px;
+    height: 250px;
     
     
 }
@@ -104,4 +106,72 @@ h2{
     border-color: #3882f6;
     border-radius: 8px;
     border-width: 5px;
+}
+.qoute{
+    background: #e5e7eb;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    padding-top: 100px;
+}
+.text-qoute{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+.who{
+    text-align: end;
+    padding-right: 150px;
+    padding-top: 50px;
+    font-size: 26px;
+    font-style: oblique;
+}
+.newsletter{
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.news-item {
+    flex: 1;
+}
+
+.news-text {
+    text-align: left;
+}
+
+.news-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.news-button button {
+    border: 2px solid #9cb2d1;
+    background-color:#3882F6;
+    color:#f0f2f4;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    height: 70px;
+    
+}
+.foot{
+    padding-top: 25px;
 }
